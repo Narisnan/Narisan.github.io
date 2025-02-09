@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>valentine</title>
+    <link rel="stylesheet" href="valentine.css">
+</head>
+<body>
+    <script>
+        let gifIndex = 0;
+        function handleClick(response) {
+            if (response === 'Yes') {
+                window.location.href = 'nextpage.html';
+            } else {
+                const gifs = [
+                    "image/pussinboot.gif",
+                    "image/sadd.gif",
+                    "image/spiderman1.gif",
+                    "image/sponbobsad.gif"
+                ];
+                gifIndex = (gifIndex + 1) % gifs.length;
+                document.querySelector(".gifImage").src = gifs[gifIndex];
+            }
+        }
+    </script>
+    <div>
+        <p class="texthead">
+            Do U love me
+        </p>
+        <img class="gifImage" src="image/pussinboot.gif" alt="Changing GIF"><br>
+        <b class="textnext">👇Click Yes to go next</b><br>
+        <a href=""></a>
+    </div>
+    <div class="buttonContainer">
+        <button class="buttonYes" onclick="handleClick('Yes')">Yes</button>
+        <button class="buttonNo" onclick="handleClick('No')">No</button>
+    </div>
+</body>
+</html>
