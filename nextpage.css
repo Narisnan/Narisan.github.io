@@ -22,7 +22,7 @@ body{
 
 .text_and{
     margin-top: 20px;
-    margin-left: 20vh;
+    margin-left: 24vh;
     font-size: 20px;
     font-family:  "Oswald", serif;
     color: khaki;
@@ -45,15 +45,15 @@ body{
 }
 
 .picture{
-    width: 45vh;
+    width: 40vh;
     border-radius: 20px;
     cursor: pointer;
 }
 
 .house{
-    width: 20px;
+    width: 90px;
 }
 
 .heart{
-    width: 40px;
+    width: 120px;
 }
