@@ -3,9 +3,9 @@ body{
 }
 
 .texthead{
-    font-size: 40px;
+    font-size: 20px;
     font-family:  "Oswald", serif;
-    margin-left: 10vh;
+    margin-left: 1vh;
     margin-bottom: 30px;
     color:khaki;
 }
@@ -16,21 +16,21 @@ body{
     margin-top: 5vh;
     margin-left: 10vh;
     font-family:  "Oswald", serif;
-    font-size: 30px;
+    font-size: 15px;
     color: khaki;
 }
 
 .text_and{
     margin-top: 20px;
-    margin-left: 102vh;
-    font-size: 40px;
+    margin-left: 10vh;
+    font-size: 30px;
     font-family:  "Oswald", serif;
     color: khaki;
 }
 
 .drawing{
-    margin-left: 20vh;
-    font-size: 30px;
+    margin-left: 1vh;
+    font-size: 15px;
     font-family:  "Oswald", serif;
     color: khaki;
 
@@ -41,7 +41,7 @@ body{
 }
 
 .song{
-    margin-left: 10vh;
+    margin-left: 3vh;
 }
 
 .picture{
