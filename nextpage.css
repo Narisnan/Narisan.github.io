@@ -14,7 +14,7 @@ body{
     display: flex;
     align-self: center;
     margin-top: 5vh;
-    margin-left: 8vh;
+    margin-left: 6vh;
     font-family:  "Oswald", serif;
     font-size: 25px;
     color: khaki;
@@ -22,14 +22,14 @@ body{
 
 .text_and{
     margin-top: 20px;
-    margin-left: 15vh;
-    font-size: 25px;
+    margin-left: 30vh;
+    font-size: 20px;
     font-family:  "Oswald", serif;
     color: khaki;
 }
 
 .drawing{
-    margin-left: 15vh;
+    margin-left: 10vh;
     font-size: 15px;
     font-family:  "Oswald", serif;
     color: khaki;
@@ -37,11 +37,11 @@ body{
 }
 
 .text{
-    margin:10px 0px 0px 20px;
+    margin-left: 2vh;
 }
 
 .song{
-    margin-left: 0vh;
+    margin-left: 2vh;
 }
 
 .picture{
@@ -50,3 +50,10 @@ body{
     cursor: pointer;
 }
 
+.house{
+    width: 20px;
+}
+
+.heart{
+    width: 30px;
+}
