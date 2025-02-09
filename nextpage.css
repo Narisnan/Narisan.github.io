@@ -21,12 +21,12 @@ body{
 }
 .text2{
     color: khaki;
-    margin-left:2vh;
+    margin-left:4vh;
 }
 
 .text_and{
     margin-top: 20px;
-    margin-left: 19vh;
+    margin-left: 20vh;
     font-size: 20px;
     font-family:  "Oswald", serif;
     color: khaki;
@@ -50,7 +50,7 @@ body{
 
 .picture{
     margin-left: 0vh;
-    width: 50vh;
+    width: 48vh;
     border-radius: 20px;
     cursor: pointer;
 }
