@@ -41,14 +41,7 @@
 }
 
 .text{
-    border: none;
-    border-radius: 15px;
     margin-left: 2vh;
-}
-
-.text_all{
-  background-color: #f4cdff;
- color: khaki;
 }
 
 .song{
