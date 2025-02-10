@@ -1,4 +1,4 @@
-body{
+ body{
     background-color: #E08282;
 }
 
@@ -41,8 +41,8 @@ body{
 }
 
 .text{
-    border:none;
-    border-radius:25px;
+    border: none;
+    border-radius: 25px;
     backgroud-color: #f4cdff;
     margin-left: 2vh;
 }
