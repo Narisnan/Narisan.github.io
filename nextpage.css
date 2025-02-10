@@ -41,6 +41,9 @@ body{
 }
 
 .text{
+    border:none;
+    border-radius:25px;
+    backgroud-color: #f4cdff;
     margin-left: 2vh;
 }
 
